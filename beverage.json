@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "name": "WINE LIST"
+},
+    {
+    "id": 2,
+    "name": "COCKTAILS"
+},
+{
+    "id": 3,
+    "name": "SPIRITS"
+},
+{
+    "id": 4,
+    "name": "CORDIALS"
+},
+{
+    "id": 4,
+    "name": "BEERS"
+},
+{
+    "id": 3,
+    "name": "MOCKTAILS"
+}
+]

@@ -1,0 +1,12 @@
+[
+    {
+    "id": 1,
+    "name": "FOOD MATRIX",
+    "food": true
+    },
+    {
+    "id": 2, 
+    "name": "BEVERAGE MATRIX",
+    "bev": true
+        }
+    ]

@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "name": "Tiramisu",
+    "ingredients": "Espresso Zabaione, Mascarpone, Mocha",
+    "allergies-not": [
+      "Eggs",
+      "Gluten (Lady Fingers)",
+      "Alcohol (Amaretto - Italian sweet, almond-flavored liqueur)",
+      "Alcohol (Brugal 1888 - Dominican aged dark rum)",
+      "Dairy"
+    ],
+    "gluten": true,
+    "dairy": true,
+    "vegan": false,
+    "vegetarian": false,
+    "alcohol": true,
+    "eggs": true,
+    "Question": "What is Zabaione?",
+    "Answer": "Zabaione is an egg yolk-based sauce that is heated and whipped with sugar and alcohol until it’s airy and fluffy. In our case, we add espresso and Brugal rum with the sugar and eggs. It is heated and blended until it's light and airy, then kept in an ISI whipped cream dispenser, making the sauce extremely light and airy."
+  },
+  {
+    "id": 2,
+    "name": "Olive Oil Cake",
+    "ingredients": "Marcona almond crumble, Apple, Mascarpone Gelato, Nutmeg",
+    "allergies-mod": [
+      "Nutmeg (can be removed)",
+      "Nuts (Marcona almond crumble)"
+    ],
+    "allergies-not": [
+      "Eggs",
+      "Gluten",
+      "Dairy"
+    ],
+    "gluten": true,
+    "dairy": true,
+    "vegan": false,
+    "vegetarian": true,
+    "nuts": true,
+    "nuts-mod": true,
+    "nutmeg": true,
+    "eggs": true,
+    "Question": "What is Olive Oil Cake?",
+    "Answer": "Olive Oil Cake is a traditional dessert from Italy known for its moist texture and subtle olive oil flavor. It's made by incorporating extra virgin olive oil into the batter, which consists of flour, liquid (such as milk or water), eggs, and other ingredients like sugar and salt. This addition adds richness and depth to the cake. Often paired with citrus zest or nuts, Olive Oil Cake offers a delightful balance of sweetness and savory notes, making it a beloved treat in Italian cuisine."
+  },
+  {
+    "id": 3,
+    "name": "Sicilian Pistachio Gelato ",
+    "ingredients": "Homemade Italian Pistachio Gelato, Sicilian Pistachios",
+    "allergies-not": [
+      "Nuts (Sicilian Pistacchios are in the Gelato)",
+      "Eggs",
+      "Dairy"
+    ],
+    "gluten": false,
+    "dairy": true,
+    "vegan": false,
+    "vegetarian": true,
+    "nuts": true,
+    "eggs": true,
+    "Question": "What is a Gelato",
+    "Answer": "Gelato is a traditional Italian frozen dessert similar to ice cream but with a few key differences. It is made with a base of milk, sugar, and flavorings such as fruit purees, nuts, chocolate, or coffee. Gelato typically has a lower fat content compared to ice cream, as it contains more milk and less cream. It is churned at a slower speed, resulting in a denser texture and a smoother consistency."
+},
+{
+    "id": 4,
+    "name": "Espresso Gelato",
+    "ingredients": "Homemade Espresso Gelato",
+    "allergies-not": [
+      "Eggs",
+      "Dairy"
+    ],
+    "gluten": false,
+    "dairy": true,
+    "vegan": false,
+    "vegetarian": true,
+    "eggs": true,
+    "Question": "What is a Gelato",
+    "Answer": "Gelato is a traditional Italian frozen dessert similar to ice cream but with a few key differences. It is made with a base of milk, sugar, and flavorings such as fruit purees, nuts, chocolate, or coffee. Gelato typically has a lower fat content compared to ice cream, as it contains more milk and less cream. It is churned at a slower speed, resulting in a denser texture and a smoother consistency."
+},
+{
+    "id": 5,
+    "name": "Meyer Lemon Sorbet",
+    "ingredients": "Meyer Lemon",
+    "allergies-not": [
+      "Only Sugar (not an alergy)"
+    ],
+    "gluten": false,
+    "dairy": false,
+    "vegan": true,
+    "vegetarian": true,
+    "Question": "What is a Meyer Lemon?",
+    "Answer": "Meyer lemon is a citrus fruit believed to be a cross between a lemon and either a mandarin or an orange. It has a sweeter, less acidic flavor compared to regular lemons, with a distinctive floral aroma"
+},
+  {
+    "id": 6,
+    "name": "Pomegranate Sorbet",
+    "ingredients": "Pomegranate",
+    "allergies-not": [
+      "Only Sugar (not an allergy)"
+    ],
+    "gluten": false,
+    "dairy": false,
+    "vegan": true,
+    "vegetarian": true,
+    "Question": "What is Sorbet?",
+    "Answer": "Sorbet is a frozen dessert made from sweetened water or fruit puree. Unlike ice cream, sorbet doesn't contain any dairy, making it a lighter and refreshing option. It's churned to a smooth consistency and often served as a palate cleanser between courses in a meal or as a refreshing treat on its own."
+  }
+]

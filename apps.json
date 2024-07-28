@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "House-Made Mozzarella"
+  },
+  {
+    "id": 2,
+    "name": "Tuna Calabrese"
+  },
+  {
+    "id": 3,
+    "name": "Hamachi"
+  },
+  {
+    "id": 4,
+    "name": "Shrimp Cocktail"
+  },
+  {
+    "id": 5,
+    "name": "Oysters"
+  },
+  {
+    "id": 6,
+    "name": "Stone Crab"
+  },
+  {
+    "id": 7,
+    "name": "Live Scallop"
+  },
+  {
+    "id": 8,
+    "name": "Burrata & Caviar"
+  },
+  {
+    "id": 9,
+    "name": "Carpaccio Piemontese"
+  },
+  {
+    "id": 10,
+    "name": "Beet Siciliana"
+  },
+  {
+    "id": 11,
+    "name": "Octopus Pizzaiolo"
+  },
+  {
+    "id": 12,
+    "name": "Eggplant & Zuchini Scapece"
+  },
+  {
+    "id": 13,
+    "name": "Calamari Marco"
+  },
+  {
+    "id": 14,
+    "name": "Proscuitto & Mozzarella"
+  },
+  {
+    "id": 15,
+    "name": "Proscuitto & Melon"
+  },
+  {
+    "id": 16,
+    "name": "Baked Clams"
+  },
+  {
+    "id": 17,
+    "name": "Pancetta"
+  },
+  {
+    "id": 18,
+    "name": "Rocco Tartare"
+  },
+  {
+    "id": 19,
+    "name": "Mozzarella & Peppers"
+  }
+]
+

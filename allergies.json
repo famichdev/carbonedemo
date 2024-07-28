@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "VEGETARIAN OPTIONS"
+  },
+  {
+    "id": 2,
+    "name": "VEGAN OPTIONS"
+  },
+  {
+    "id": 3,
+    "name": "GLUTEN FREE"
+  },
+  {
+    "id": 4,
+    "name": "NUT FREE"
+  },
+  {
+    "id": 5,
+    "name": "DAIRY FREE"
+  },
+  {
+    "id": 6,
+    "name": "NUTMEG FREE"
+  },
+  {
+    "id": 7,
+    "name": "EGGS FREE"
+  },
+  {
+    "id": 8,
+    "name": "SHELLFISH ALLERGY"
+  },
+  {
+    "id": 9,
+    "name": "FIN FISH ALLERGY"
+  },
+  {
+    "id": 10,
+    "name": "NIGHTSHADES"
+  },
+  {
+    "id": 11,
+    "name": "ALCOHOL FREE"
+  }
+]
