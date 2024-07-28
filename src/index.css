@@ -227,6 +227,7 @@ p1 {
 
 .modifications {
   width: 100%;
+  padding: 5rem;
 }
 
 .ingred-btn {
@@ -395,6 +396,10 @@ p1 {
 .button-menu {
   margin-top: 1rem;
   display: inline-block;
+}
+
+.matrix {
+  display: block;
 }
 
 .menu-btn {

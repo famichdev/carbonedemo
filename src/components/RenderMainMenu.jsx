@@ -11,7 +11,7 @@ import ALLWINE from '../../winelist.json';
 import WHITEBTG from '../../white-btg.json';
 import FISH from '../../fish.json';
 import CARNI from '../../carni.json';
-import MATRIX from '../../matrix.json';
+
 
 
 export default function RenderMenu({ status, startSearch, setMode }) {
@@ -100,8 +100,6 @@ export default function RenderMenu({ status, startSearch, setMode }) {
     render = APPS;
   } else if (status.page === 'ZUPPA E INSALATE') {
     render = SALAD;
-  } else if (status.page === 'DOWNLOAD MATRIX') {
-    render = MATRIX;
   } else if (status.page === 'MACARONI') {
     render = PASTAS;
   } else if (status.page === 'A PIACERE') {

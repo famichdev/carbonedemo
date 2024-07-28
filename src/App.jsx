@@ -29,6 +29,7 @@ function App() {
   const [prevPosition, setPrevPosition] = useState({ x: 0, y: 0 });
   const [windowPosition, setWindowPosition] = useState({ x: 0, y: 0 });
 
+
   useEffect(() => {
 
     const handlePopState = () => {
@@ -117,7 +118,6 @@ function App() {
       setting !== 'WINE LIST' &&
       setting !== 'BEVERAGE' &&
       setting !== 'ANTIPASTI' &&
-      setting !== 'DOWNLOAD MATRIX' &&
       setting !== 'A PIACERE' &&
       setting !== 'CARNI' &&
       setting !== 'DINNER' &&
