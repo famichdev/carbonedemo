@@ -399,7 +399,7 @@ p1 {
 }
 
 .matrix {
-  display: block;
+  display: flex;
 }
 
 .menu-btn {
