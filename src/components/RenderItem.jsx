@@ -48,7 +48,7 @@ export default function RenderItem({ status, zoom, enlarge, zoomIngredients, che
 
   const renderCss = zoom ? 'zoom' : null;
 
-/*   const modifiable =
+  const modifiable =
     FULL[currentItem]['allergies-mod']?.map((allergie, index) => (
       <h3 key={index} className="allergies">
         {allergie}
@@ -74,7 +74,7 @@ export default function RenderItem({ status, zoom, enlarge, zoomIngredients, che
       <h3 key={index} className="allergies">
         {allergie}
       </h3>
-    )) || ''; */
+    )) || '';
   
   console.log(status.selectedItem);
  
@@ -101,8 +101,12 @@ export default function RenderItem({ status, zoom, enlarge, zoomIngredients, che
       )}
       {status.selectedItem === 'DOWNLOAD MATRIX' &&
         <div className='matrix'>
-          <a href='/public/food.pdf' className="menu-btn2" alt="food-matrix">FOOD MATRIX</a>
-       <a href='/public/bev.pdf'className="menu-btn2" alt="food-matrix">BEV MATRIX</a>
+          <div>
+            <a href='/src/food.pdf' className="menu-btn3" alt="food-matrix" target='_blank'>FOOD MATRIX</a>
+          </div>
+          <div>
+            <a href='/src/bev.pdf' className="menu-btn3" alt="food-matrix" target='_blank'>BEV MATRIX</a>
+            </div>
       </div> }
       <section className={renderCss}>
         {FULL[currentItem]['beverage'] && <RenderWine status={status} zoomLabel={zoomLabel} zoomMap={zoomMap} enlarge={enlarge} setZoomMap={setZoomMap} setZoomLabel={setZoomLabel} enlargeMap={enlargeMap} enlargeLabel={enlargeLabel}/>}

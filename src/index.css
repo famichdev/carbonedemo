@@ -225,11 +225,6 @@ p1 {
   font-style: italic;
 }
 
-.modifications {
-  width: 100%;
-  padding: 5rem;
-}
-
 .ingred-btn {
   margin: 2rem auto;
   border-top: 2px solid white;
@@ -269,6 +264,7 @@ p1 {
   background-color: white;
   cursor: pointer;
 }
+
 
 .selected {
   margin: 0 8px 0 8px;
@@ -399,7 +395,30 @@ p1 {
 }
 
 .matrix {
-  display: flex;
+  margin: 4rem 0 8rem 0;
+  display: grid;
+  gap: 4rem;
+}
+
+.menu-btn3 {
+  padding: 10px 24px;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border: 3px solid white;
+  color: #041c2c;
+  background-color: white;
+  width: 400px;
+  box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.451);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.37);
+  text-decoration: none;
+}
+
+.menu-btn3:hover {
+  border: 3px solid #041c2c;
+  color: #041c2c;
+  background-color: white;
+  cursor: pointer;
 }
 
 .menu-btn {
