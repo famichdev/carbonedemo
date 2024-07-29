@@ -102,10 +102,10 @@ export default function RenderItem({ status, zoom, enlarge, zoomIngredients, che
       {status.selectedItem === 'DOWNLOAD MATRIX' &&
         <div className='matrix'>
           <div>
-            <a href='/src/food.pdf' className="menu-btn3" alt="food-matrix" target='_blank'>FOOD MATRIX</a>
+            <a href='/src/assets/food.pdf' className="menu-btn3" alt="food-matrix" target='_blank'>FOOD MATRIX</a>
           </div>
           <div>
-            <a href='/src/bev.pdf' className="menu-btn3" alt="food-matrix" target='_blank'>BEV MATRIX</a>
+            <a href='/src/assets/bev.pdf' className="menu-btn3" alt="food-matrix" target='_blank'>BEV MATRIX</a>
             </div>
       </div> }
       <section className={renderCss}>
