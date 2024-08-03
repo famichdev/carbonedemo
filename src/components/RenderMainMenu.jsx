@@ -201,10 +201,6 @@ export default function RenderMenu({ status, startSearch, setMode }) {
           <p className="change">CONTAIN EGGS, BUT CAN BE MODIFIED</p>
         )}
         {status.page === 'EGGS FREE' && options}
-        {status.page === 'SHELLFISH ALLERGY' && (
-          <p className="change">DOES NOT CONTAIN SHELLFISH</p>
-        )}
-        {status.page === 'SHELLFISH ALLERGY' && options}
         {status.page === 'FIN FISH ALLERGY' && (
           <p className="change">CONTAIN FIN FISH, BUT CAN BE MODIFIED</p>
         )}
