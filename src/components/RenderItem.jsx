@@ -126,14 +126,14 @@ export default function RenderItem({ status, zoom, enlarge, zoomIngredients, che
                   Allergies
                 </button>
               )}
-              {theme !== 'pairing' && status.selectedItem !== 'THE MOVE' && (
+{/*               {theme !== 'pairing' && status.selectedItem !== 'THE MOVE' && (
                 <button
                   onClick={() => setTheme('pairing')}
                   className="menu-btn"
                 >
                   Pairing
                 </button>
-              )}
+              )} */}
               {theme !== 'story' && (
                 <button onClick={() => setTheme('story')} className="menu-btn">
                   Story
