@@ -118,6 +118,7 @@ function App() {
       setting !== 'WINE LIST' &&
       setting !== 'BEVERAGE' &&
       setting !== 'ANTIPASTI' &&
+      setting !== 'CONTORNI' &&
       setting !== 'A PIACERE' &&
       setting !== 'CARNI' &&
       setting !== 'DINNER' &&

@@ -11,6 +11,7 @@ import ALLWINE from '../../winelist.json';
 import WHITEBTG from '../../white-btg.json';
 import FISH from '../../fish.json';
 import CARNI from '../../carni.json';
+import SIDES from '../../sides.json';
 
 
 
@@ -106,6 +107,8 @@ export default function RenderMenu({ status, startSearch, setMode }) {
     render = FISH;
   } else if (status.page === 'CARNI') {
     render = CARNI;
+  } else if (status.page === 'CONTORNI') {
+    render = SIDES;
   } else if (status.page === 'DESSERTS') {
     render = DESSERTS;
   } else if (status.page === 'GLUTEN FREE') {
