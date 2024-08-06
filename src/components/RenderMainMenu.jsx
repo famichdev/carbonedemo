@@ -109,7 +109,7 @@ export default function RenderMenu({ status, startSearch, setMode }) {
     render = CARNI;
   } else if (status.page === 'CONTORNI') {
     render = SIDES;
-  } else if (status.page === 'DESSERTS') {
+  } else if (status.page === 'DOLCI') {
     render = DESSERTS;
   } else if (status.page === 'GLUTEN FREE') {
     render = filter('gluten');
@@ -137,9 +137,10 @@ export default function RenderMenu({ status, startSearch, setMode }) {
     const dairyChange = filterMod('dairy-mod');
     options = renderMod(dairyChange);
   } else if (status.page === 'EGGS FREE') {
-    render = filter('eggs');
-    const eggChange = filterMod('eggs-mod');
+    render = filter('egg');
+    const eggChange = filterMod('egg-mod');
     options = renderMod(eggChange);
+    console.log(eggChange);
   } else if (status.page === 'SHELLFISH ALLERGY') {
     render = Vefilter('shellfish');
     const shellfishChange = filter('shellfish-mod');
@@ -157,6 +158,7 @@ export default function RenderMenu({ status, startSearch, setMode }) {
     const vegChange = filterMod('vegetarian-mod');
     options = renderMod(vegChange);
   }
+
 
   if (!status.selectedItem && status.page !== 'SEARCH') {
     renderMenu = render.map((item) => {

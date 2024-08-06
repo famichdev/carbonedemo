@@ -123,7 +123,7 @@ function App() {
       setting !== 'CARNI' &&
       setting !== 'DINNER' &&
       setting !== 'ZUPPA E INSALATE' &&
-      setting !== 'DESSERTS' &&
+      setting !== 'DOLCI' &&
       setting !== 'MACARONI' &&
       setting !== 'GLUTEN FREE' &&
       setting !== 'NUT FREE' &&

@@ -54,11 +54,8 @@ export default function Dinner({
 
 
 
-  let title = 'title';
+  const title = currentStatus.selectedItem ? 'title-non' : 'title';
 
-  if (currentStatus.selectedItem || currentStatus.page === 'NIGHTSHADES') {
-    title = 'title-non';
-  }
 
   return (
     <>
@@ -89,21 +86,22 @@ export default function Dinner({
               'WARNING: CONTAIN SHELLFISH'}
             {currentStatus.page === 'FIN FISH ALLERGY' &&
               'WARNING: CONTAIN FISH FISH'}
-            </p>
-          {!startSearch && 
-              <RenderMainMenu status={currentStatus} setMode={setMode} startSearch={startSearch}/>
-            }
-          {currentStatus.page === 'NIGHTSHADES' && (
+          </p>
+          {currentStatus.page === 'NIGHTSHADES' && <div>
             <p className="nightshades">
               NIGHSHADE ALLERGY INCLUDES: Tomatoes, Potatoes (excluding sweet
               potatoes and yams), Bell peppers (green, red, yellow, and orange
               varieties), Eggplant, Tomatillos, Chili peppers (jalapeños,
               serranos, habaneros), Paprika, Cayenne pepper
             </p>
-          )}
-          {currentStatus.page === 'NIGHTSHADES' && (
-            <p className="nightshades2">THIS DISHES ARE NIGHTSHADE FREE</p>
-          )}
+          
+            <p className={title}>THIS DISHES ARE NIGHTSHADE FREE</p>
+            
+            </div>}
+          {!startSearch && 
+              <RenderMainMenu status={currentStatus} setMode={setMode} startSearch={startSearch}/>
+            }
+
           <ul>
             {currentStatus.selectedItem && 
               <RenderItem status={currentStatus} zoom={zoom} enlarge={enlarge} zoomIngredients={zoomIngredients} checkItems={checkItems} zoomLabel={zoomLabel} zoomMap={zoomMap} setZoomMap={setZoomMap} setZoomLabel={setZoomLabel} enlargeMap={enlargeMap} enlargeLabel={enlargeLabel} />

@@ -789,12 +789,11 @@ ul {
 .nightshades {
   text-align: center;
   margin: 1rem auto 2rem auto;
-  color: #44464d;
+  color: black;
   font-size: 2rem;
-  border: 6px solid #44464d;
   background-color: white;
   width: 100%;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 
 .nightshades2 {
