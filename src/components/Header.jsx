@@ -1,15 +1,14 @@
 import carbone from '../../carbone.png';
 
 const searchIcon = (
-  <svg
-    className="search-icon"
-    xmlns="http://www.w3.org/2000/svg"
-    width="16"
-    height="16"
-    fill="currentColor"
-    class="bi bi-search"
-    viewBox="0 0 16 16"
-  >
+<svg
+  className="search-icon bi bi-search"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="currentColor"
+  viewBox="0 0 16 16"
+>
     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
   </svg>
 );
@@ -17,6 +16,7 @@ const searchIcon = (
 export default function Header({
   startSearch,
   currentStatus,
+  setMode,
   startSearchFunction,
   goBack,
   zoom,
@@ -26,33 +26,18 @@ export default function Header({
   enlargeMap,
   enlargeLabel
 }) {
-  let returnClass = 'back';
-  let returnClassSearch = 'done-search';
 
-  if (currentStatus.page === 'MAIN') {
-    returnClass = 'none';
-  }
+  const returnClass = currentStatus.page === 'MAIN' ? 'none' : 'back';
+  const searchDiv = currentStatus.page === 'DINNER' ? 'search' : 'search-div-small';
+  const logoCss = startSearch ? 'header-non' : 'header';
+  const headerCss = startSearch ? 'header-search' : 'header-div';
 
-  let searchDiv = 'search';
-
-  if (currentStatus.page !== 'DINNER') {
-    searchDiv = 'search-div-small';
-  }
-
-  let logoCss = 'header';
-  if (startSearch) {
-    logoCss = 'header-non';
-  }
-  let headerCss = 'header-div';
-  if (startSearch) {
-    headerCss = 'header-search';
-  }
   return (
     <header>
       {!startSearch && (
         <section className={headerCss}>
           <div className={logoCss}>
-            <a onClick={() => window.location.reload()}>
+            <a onClick={() => setMode('DINNER')}>
               <img src={carbone} className="carbone" alt="carbone"></img>
             </a>
           </div>
