@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 import Dinner from './components/Menu';
 import ChatGPTComponent from './components/ChatGPT';
 import Weather from './components/Weather';
+import Password from './components/Password';
+import HeaderOne from './components/HeaderOne';
 
 
 
@@ -11,7 +13,11 @@ function App() {
     page: 'DINNER',
     selectedItem: null,
   };
-
+  
+  const correctPassword = import.meta.env.VITE_PASSWORD;
+  const [password, setPassword] = useState('');
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [error, setError] = useState('');
 
   const [currentStatus, setCurrentStatus] = useState(status);
   const [prevPage, setPrevPage] = useState(status);
@@ -192,8 +198,9 @@ function App() {
   }
 
   return (
-    <>
-      <Header
+    <>{!isLoggedIn && <HeaderOne />}
+      {!isLoggedIn && <Password password={password} setPassword={setPassword} correctPassword={correctPassword} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} error={error} setError={setError} />}
+      {isLoggedIn && <Header
         search={search}
         goBack={goBack}
         setSearch={setSearch}
@@ -208,8 +215,8 @@ function App() {
         zoomLabel={zoomLabel}
         enlargeLabel={enlargeLabel}
         enlargeMap={enlargeMap}
-      />
-      <Dinner
+      />}
+      {isLoggedIn && <Dinner
         currentStatus={currentStatus}
         setCurrentStatus={setCurrentStatus}
         startSearchFunction={startSearchFunction}
@@ -232,7 +239,7 @@ function App() {
         zoomMap={zoomMap}
         setZoomMap={setZoomMap}
         setZoomLabel={setZoomLabel}
-      />
+      />}
     </>
   );
 }
