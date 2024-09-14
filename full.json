@@ -5032,11 +5032,11 @@
       "Almond Ice Cream",
       "Garnish - Orange Peel, Cinnamon Stick."
     ],
-    "spiel": "Bananas sauteed in banana liquor caramel, served over banana bread and almond ice cream, finished with shaved almonds.",
+    "spiel": "French chef Auguste Escoffier created this iconic flaming cherry dessert for Queen Victoria’s Diamond Jubilee in 1897. Originally poached in syrup and topped with rum, the flame remains its signature touch.",
     "ingred-search": [],
-    "pics": ["/src/assets/food/banana.jpg"],
+    "pics": ["/src/assets/food/cherry.jpg"],
     "pairing": ["Vietti Moscato D’Asti ‘Cascinetta’ Piedmont, Italy 2022"],
-    "pics3": true
+    "pics2": true
   },
   {
     "id": 2000,

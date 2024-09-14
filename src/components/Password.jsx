@@ -18,7 +18,8 @@ export default function Password({ password, setPassword, correctPassword, setIs
      }
     
     return ( 
-            <section className="welcome">
+      <section className="welcome">
+            <form action="/login" method="post" onSubmit={handleLogin}>
             <h2>Please Enter Password</h2>
             <div className="enter">
                     <input
@@ -28,9 +29,10 @@ export default function Password({ password, setPassword, correctPassword, setIs
                     placeholder="Enter password" />
             </div>
             <div>
-                <button onClick={handleLogin}>Log In</button>
+                <button>Log In</button>
                 </div>
-                {error && <p style={{ color: 'red' }}>{error}</p>}
+        {error && <p style={{ color: 'red' }}>{error}</p>}
+        </form>
                 </section>
     );
 }
