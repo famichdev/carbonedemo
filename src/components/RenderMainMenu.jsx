@@ -189,7 +189,7 @@ export default function RenderMenu({ status, startSearch, setMode }) {
 
           <p className="title">ALLERGIES & RESTRICTIONS</p>
       )} */}
-      <p>Last Update - September 2024</p>
+      {!startSearch && status.page === 'DINNER' && <p>Last Update - September 2024</p>}
       {status.page === 'GLUTEN FREE' && (
         <p className="change">HAS GLUTEN, BUT CAN BE MODIFIED</p>
       )}
