@@ -185,10 +185,11 @@ export default function RenderMenu({ status, startSearch, setMode }) {
   return (
     <>
       <ul>{renderMenu}</ul>
-      {!startSearch && status.page === 'DINNER' && (
+{/*       {!startSearch && status.page === 'DINNER' && (
 
           <p className="title">ALLERGIES & RESTRICTIONS</p>
-      )}
+      )} */}
+      <p>Last Update - September 2024</p>
       {status.page === 'GLUTEN FREE' && (
         <p className="change">HAS GLUTEN, BUT CAN BE MODIFIED</p>
       )}
@@ -231,7 +232,7 @@ export default function RenderMenu({ status, startSearch, setMode }) {
         )}
         {status.page === 'NIGHTSHADES' && options}
       </ul>
-        <ul>{status.page === 'DINNER' && allergies}</ul>
+{/*         <ul>{status.page === 'DINNER' && allergies}</ul> */}
     </>
   );
 }
