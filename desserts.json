@@ -18,13 +18,17 @@
   {
     "id": 5,
     "name": "Colomba Cake"
-  },
+  },  
   {
     "id": 6,
-    "name": "Bananas Alla Rum"
+    "name": "Grapefruit Brulee"
   },
   {
     "id": 7,
+    "name": "Bananas Alla Rum"
+  },
+  {
+    "id": 8,
     "name": "Maraschino Cherries Flamble"
   }
 ]
