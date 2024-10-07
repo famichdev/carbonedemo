@@ -4573,7 +4573,7 @@
   {
     "id": 63,
     "name": "Coconut Lime Chiffon",
-    "allergies-not": ["Gluten (Flour)", "Dairy (Cream, Butter", "Eggs", "Citrus (Orange Zest, Lemon Juice, Lime Zest", "Alcohol (Diplomatico Rum)"],
+    "allergies-not": ["Gluten (Flour)", "Dairy (Cream, Butter)", "Eggs", "Citrus (Orange Zest, Lemon Juice, Lime Zest", "Alcohol (Diplomatico Rum)"],
     "soy": false,
     "soy-mod": false,
     "fennel": false,
