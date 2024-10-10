@@ -216,7 +216,7 @@ function App() {
         enlargeLabel={enlargeLabel}
         enlargeMap={enlargeMap}
       />}
-      {isLoggedIn && <Dinner
+      {isLoggedIn && <Dinner 
         currentStatus={currentStatus}
         setCurrentStatus={setCurrentStatus}
         startSearchFunction={startSearchFunction}
