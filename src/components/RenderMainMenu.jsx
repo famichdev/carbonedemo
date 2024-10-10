@@ -103,7 +103,7 @@ export default function RenderMenu({ status, startSearch, setMode }) {
     render = SALAD;
   } else if (status.page === 'MACARONI') {
     render = PASTAS;
-  } else if (status.page === 'A PIACERE') {
+  } else if (status.page === 'PESCI') {
     render = FISH;
   } else if (status.page === 'CARNI') {
     render = CARNI;

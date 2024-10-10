@@ -125,7 +125,7 @@ function App() {
       setting !== 'BEVERAGE' &&
       setting !== 'ANTIPASTI' &&
       setting !== 'CONTORNI' &&
-      setting !== 'A PIACERE' &&
+      setting !== 'PESCI' &&
       setting !== 'CARNI' &&
       setting !== 'DINNER' &&
       setting !== 'ZUPPA E INSALATE' &&
