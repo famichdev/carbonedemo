@@ -161,7 +161,19 @@ export default function RenderMenu({ status, startSearch, setMode }) {
 
 
   if (!status.selectedItem && status.page !== 'SEARCH') {
-    renderMenu = render.map((item) => {
+    let flow;
+
+    const sortedRender = [...render].sort((a, b) => {
+      return a.name.localeCompare(b.name);
+    });
+
+    if (status.page === 'DINNER') {
+      flow = render;
+    } else {
+      flow = sortedRender;
+    }
+
+    renderMenu = flow.map((item) => {
       return (
         <li key={item.id}>
           <button className="select" onClick={() => setMode(item.name)}>

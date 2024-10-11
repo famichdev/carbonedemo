@@ -1270,6 +1270,10 @@ ul {
         width: 80%;
       }
       
+      .title {
+        padding-bottom: 0.2rem;
+      }
+
       .search {
           width: 80%;
       }
