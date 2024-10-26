@@ -31,7 +31,7 @@ export default function Search({
             ref={inputRef}
             value={search}
             onChange={(event) => onSet(event.target.value.toLowerCase())}
-            placeholder="Search..."
+            placeholder="Enter name or ingredient"
           />
         </div>
       )}
