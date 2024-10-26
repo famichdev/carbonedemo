@@ -1144,7 +1144,7 @@ ul {
   }
   .answer3 {
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
   }
     
     .food-item p1 {
@@ -1165,6 +1165,7 @@ ul {
 
       .food-item h3 {
         font-size: 2.5rem;
+        font-weight: 600;
         width: 80%;
       }
       .food-item h4 {
@@ -1283,6 +1284,7 @@ ul {
       }
       .food-item h3 {
         font-size: 2rem;
+        padding-left: 1.5rem;
         width: 95%;
       }
       .food-item h4 {
@@ -1302,7 +1304,7 @@ ul {
       .answer {
         text-align: left;
         width: 95%;
-        padding: 8px 12px;
+        padding: 12px 1.5rem;
       }
       .dish {
         width: 85%;
