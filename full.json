@@ -1445,7 +1445,6 @@
     "name": "Ceaser ZZ",
     "ingredients": "Caesar alla ZZ.",
     "allergies-mod": [
-      "Vegetarian Option - No Anchovies",
       "Egg (in dressing)",
       "Dairy (no Ricotta Salata no Pecorino Toscano, no Garlic Croutons)",
       "Citrus (no Caesar Dressing)",
@@ -1455,7 +1454,7 @@
       "Sunflower Seed Oil (no Anchovies)",
       "Black Pepper (No Black Pepper)"
     ],
-    "allergies-not": ["Fish (Worcestershire in a dressing)", "Sulfates "],
+    "allergies-not": ["Fish (Worcestershire in a dressing)", "Sulfates"],
     "gluten": true,
     "gluten-mod": true,
     "seedoil": true,
@@ -1471,7 +1470,7 @@
     "vegan": false,
     "vegan-mod": false,
     "vegetarian": false,
-    "vegetarian-mod": true,
+    "vegetarian-mod": false,
     "nuts": false,
     "nuts-mod": false,
     "cheese": true,

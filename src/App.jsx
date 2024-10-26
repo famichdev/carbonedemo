@@ -1,8 +1,6 @@
 import Header from './components/Header';
 import { useState, useEffect } from 'react';
-import Dinner from './components/Menu';
-import ChatGPTComponent from './components/ChatGPT';
-import Weather from './components/Weather';
+import Dinner from './components/Menu'; 
 import Password from './components/Password';
 import HeaderOne from './components/HeaderOne';
 
