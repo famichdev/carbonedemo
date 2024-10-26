@@ -76,7 +76,7 @@ export default function RenderItem({ status, zoom, enlarge, zoomIngredients, che
       </h3>
     )) || '';
   
-  console.log(status.selectedItem);
+  const spielText = FULL[currentItem].spiel.replace(/<br>/g, "<br />")
  
   return (
     <>
@@ -261,17 +261,17 @@ export default function RenderItem({ status, zoom, enlarge, zoomIngredients, che
                     !zoom && (
                       <div className="answer2">
                         <h2>SPIEL</h2>
-                        <p1>{FULL[currentItem].spiel}</p1>
+                        <p1 dangerouslySetInnerHTML={{ __html: spielText }}></p1>
                       </div>
                     )}
                   {FULL[currentItem].pics2 && !zoom && (
                     <div className="answer3">
-                      <p1>{FULL[currentItem].spiel}</p1>
+                      <p1 dangerouslySetInnerHTML={{ __html: spielText }}></p1>
                     </div>
                   )}
                   {FULL[currentItem].pics3 && !zoom && (
                     <div className="answer3">
-                      <p1>{FULL[currentItem].spiel}</p1>
+                      <p1 dangerouslySetInnerHTML={{ __html: spielText }}></p1>
                     </div>
                   )}
                 </div>

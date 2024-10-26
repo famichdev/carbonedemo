@@ -69,6 +69,11 @@
       "Kitchen: Mozzarella Bowl, Gravy Boat (Tray Only) with Carbone Paper Kitchen Coaster, Mozzarella Scissors, Mozzarella Tongs",
       "Table: Appetizer Fork, Appetizer Knife, B&B"
     ],
+    "breakdown": [
+      "Heavy cream",
+      "Olio Verde Olive Oil",
+      "Maldon Salt"
+    ],
     "pairing": "Matthiasson 'Linda Vista'",
     "ingred-search": [],
     "pics": ["/src/assets/food/mozz.jpg"],
@@ -924,7 +929,7 @@
       "ADD CLAM can be selected to add one of each to the dish",
       "Substitutions cannot be made without Chef’s approval"
     ],
-    "spiel": "Assorted baked clams: 2 Classic and one original: OREGANATA with oregano & Breadcrumb. CASINO: lardo, pepper, bacon. FANTASIA - Chef Mario’s creation smoked open on the charcoal grill, finished with scallion, ginger, sea urchin (Riccio di mare).",
+    "spiel": "Assorted baked clams - <br> 2 Classic and one original: <br> <br> OREGANATA with oregano & Breadcrumb. <br> <br>CASINO: lardo, pepper, bacon. <br> <br> FANTASIA - Chef Mario’s creation smoked open on the charcoal grill, finished with scallion, ginger, sea urchin (Riccio di mare).",
     "ingred-search": [],
     "pics": ["/src/assets/food/clams.jpg"],
     "pairing": ["Bisol Prosecco 'Jeio'"],
