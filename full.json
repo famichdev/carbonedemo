@@ -69,11 +69,7 @@
       "Kitchen: Mozzarella Bowl, Gravy Boat (Tray Only) with Carbone Paper Kitchen Coaster, Mozzarella Scissors, Mozzarella Tongs",
       "Table: Appetizer Fork, Appetizer Knife, B&B"
     ],
-    "breakdown": [
-      "Heavy cream",
-      "Olio Verde Olive Oil",
-      "Maldon Salt"
-    ],
+    "breakdown": ["Heavy cream", "Olio Verde Olive Oil", "Maldon Salt"],
     "pairing": "Matthiasson 'Linda Vista'",
     "ingred-search": [],
     "pics": ["/src/assets/food/mozz.jpg"],
@@ -293,7 +289,7 @@
     "vegan": false,
     "vegetarian": false,
     "nuts": false,
-    "nightshades": true, 
+    "nightshades": true,
     "nightshades-mod": true,
     "cheese": false,
     "allium": true,
@@ -431,7 +427,7 @@
       "Burrata",
       "Chives",
       "Olio Verde",
-      "Optional- Grilled Sesamo Bread (4 pc cut in half)"
+      "Optional - Grilled Sesamo Bread (4 pc cut in half)"
     ],
     "spiel": "Osetra caviar over burrata cheese finished with chopped chives and EVOO, served with grilled sesame bread.",
     "ingred-search": [],
@@ -650,7 +646,7 @@
     "nuts-mod": false,
     "cheese": false,
     "allium": true,
-    "nightshades":true,
+    "nightshades": true,
     "nightshades-mod": true,
     "allium-mod": false,
     "truffle": false,
@@ -929,7 +925,7 @@
       "ADD CLAM can be selected to add one of each to the dish",
       "Substitutions cannot be made without Chef’s approval"
     ],
-    "spiel": "Assorted baked clams - <br> 2 Classic and one original: <br> <br> OREGANATA with oregano & Breadcrumb. <br> <br>CASINO: lardo, pepper, bacon. <br> <br> FANTASIA - Chef Mario’s creation smoked open on the charcoal grill, finished with scallion, ginger, sea urchin (Riccio di mare).",
+    "spiel": "Assorted baked clams - <br /> 2 Classic and one original: <br /> <br /> OREGANATA with oregano & Breadcrumb. <br /> <br/>CASINO: lardo, pepper, bacon. <br /> <br /> FANTASIA - Chef Mario’s creation smoked open on the charcoal grill, finished with scallion, ginger, sea urchin (Riccio di mare).",
     "ingred-search": [],
     "pics": ["/src/assets/food/clams.jpg"],
     "pairing": ["Bisol Prosecco 'Jeio'"],
@@ -1720,7 +1716,7 @@
     "vegan-mod": false,
     "vegetarian": false,
     "vegetarian-mod": false,
-    "nightshades": true, 
+    "nightshades": true,
     "nightshades-mod": true,
     "nuts": false,
     "nuts-mod": false,
@@ -2113,7 +2109,7 @@
     "vegan-mod": true,
     "vegetarian": true,
     "vegetarian-mod": false,
-    "nightshades": true, 
+    "nightshades": true,
     "nightshades-mod": false,
     "nuts": false,
     "nuts-mod": false,
@@ -3753,17 +3749,17 @@
     "Question": "Introduction to Porterhouse Steak",
     "Answer": "A porterhouse steak is a premium cut of beef that combines two of the most sought-after steaks in one: the tenderloin and the strip steak. It is characterized by its distinctive T-shaped bone, with the tenderloin on one side and the strip steak on the other. This cut is typically larger than a T-bone steak, providing a generous portion of both tenderloin and strip steak, making it ideal for sharing.",
     "set": [
-      "Kitchen: Porterhouse Plate, Pasta/Salad Tongs",  
+      "Kitchen: Porterhouse Plate, Pasta/Salad Tongs",
       "Table: Doccia Entree Plate, Entree Fork & Steak Knife"
     ],
     "breakdown": [
-       "*Cooked on wood Fire*",
-       "40-ounce 40 day dry aged Bone-In Porterhouse",
-       "Roasted Garlic Clove",
-       "Rosemary Oil",
-       "Maldon Sea Salt",
-       "Butter",
-       "Served with Vine Street Café Steak Sauce - tomato puree, water, raisins, cane sugar, red wine vinegar, worcestershire sauce (contain fish sauce)"
+      "*Cooked on wood Fire*",
+      "40-ounce 40 day dry aged Bone-In Porterhouse",
+      "Roasted Garlic Clove",
+      "Rosemary Oil",
+      "Maldon Sea Salt",
+      "Butter",
+      "Served with Vine Street Café Steak Sauce - tomato puree, water, raisins, cane sugar, red wine vinegar, worcestershire sauce (contain fish sauce)"
     ],
     "spiel": "40 day dry aged 40 oz bone-in Pat Lafrieda prime cut Porterhouse Steak. The steak is grilled and is garnished with a head of confit garlic, and served with a classic steak sauce on the side.",
     "ingred-search": [],
@@ -3774,17 +3770,14 @@
   {
     "id": 53,
     "name": "Veal Milanese",
-    "allergies-mod": [
-      "Citrus (no Lemon in Salad)",
-      "Nightshade (no Tomatoes)"
-    ],
+    "allergies-mod": ["Citrus (no Lemon in Salad)", "Nightshade (no Tomatoes)"],
     "allergies-not": [
-    "Allium (no Solution)",
-    "Dairy (no Solution)",
-    "Gluten (no Solution)",
-    "Egg (no Solution)",
-    "Soy (no Solution)"
-  ],
+      "Allium (no Solution)",
+      "Dairy (no Solution)",
+      "Gluten (no Solution)",
+      "Egg (no Solution)",
+      "Soy (no Solution)"
+    ],
     "soy": true,
     "soy-mod": false,
     "fennel": false,
@@ -3852,7 +3845,8 @@
       "Panko and parmesan breadcrumbs",
       "Tomato Vinaigrette -  Tomato paste, Balsamic vinegar, Lemon Juice, Evoo",
       "Arugula and Basil Salad",
-      "Parmigiano Reggiano"],
+      "Parmigiano Reggiano"
+    ],
     "spiel": "14 Veal Chop pounded thin, panko and parmesan breadcrumbs, pan-fried and served with arugula salad, sliced tomatoes, and shaved parmigiano reggiano.",
     "ingred-search": [],
     "pics": ["/src/assets/food/milanese.jpg"],
@@ -3934,7 +3928,8 @@
       "Ginger Scallion Condiment - ginger, garlic, Italian long hots, fresno peppers, scallions",
       "Spicy breadcrumb",
       "Evoo",
-      "Calabrian Chili Oil"],
+      "Calabrian Chili Oil"
+    ],
     "spiel": "Broccoli rabe sauteed with ginger and garlic, finished with Calabrian chili oil and spicy bread crumbs.",
     "ingred-search": [],
     "pics": ["/src/assets/food/broc.jpg"],
@@ -3944,10 +3939,11 @@
   {
     "id": 55,
     "name": "Potato Louie",
-    "allergies-mod": [
-      "Allium (no Garlic)"
+    "allergies-mod": ["Allium (no Garlic)"],
+    "allergies-not": [
+      "Nightshades (Pototaes)",
+      "NOT VEGAN OR VEGETARIAN (COOKED IN A DUCK FAT)"
     ],
-    "allergies-not": ["Nightshades (Pototaes)", "NOT VEGAN OR VEGETARIAN (COOKED IN A DUCK FAT)"],
     "soy": false,
     "soy-mod": false,
     "fennel": false,
@@ -4014,7 +4010,8 @@
       "Yukon Gold Potato - Slowly roasted in duck fat",
       "Garlic",
       "Parsley",
-      "Olio Verde"],
+      "Olio Verde"
+    ],
     "spiel": "Roasted yukon gold potatoes cooked under a layer of duck fat confit, finished with fresh garlic and parsley.",
     "ingred-search": [],
     "pics": ["/src/assets/food/pot.jpg"],
@@ -4104,7 +4101,10 @@
   {
     "id": 57,
     "name": "Artichoke Hearts",
-    "allergies-mod": ["Allium, Fish - Colatura di Alici - Sicilian Fish sauce), Citrus, Chili","Solution - Simply Steamed"],
+    "allergies-mod": [
+      "Allium, Fish - Colatura di Alici - Sicilian Fish sauce), Citrus, Chili",
+      "Solution - Simply Steamed"
+    ],
     "soy": false,
     "soy-mod": false,
     "fennel": false,
@@ -4328,7 +4328,7 @@
     "breakdown": [
       "Asparagus",
       "Fine Herbs - chives, chervil, tarragon, parsley",
-     "Lemon Hat",
+      "Lemon Hat",
       "Maldon Salt",
       "Olio Verde"
     ],
@@ -4341,7 +4341,12 @@
   {
     "id": 60,
     "name": "Lemon Cheesecake",
-    "allergies-not": ["Eggs", "Gluten (Flour)", "Dairy (Cream cheese, Butter, Creme Fraiche)", "Citrus (Lemon Juice, Dehydrated Lemon)"],
+    "allergies-not": [
+      "Eggs",
+      "Gluten (Flour)",
+      "Dairy (Cream cheese, Butter, Creme Fraiche)",
+      "Citrus (Lemon Juice, Dehydrated Lemon)"
+    ],
     "soy": false,
     "soy-mod": false,
     "fennel": false,
@@ -4400,9 +4405,7 @@
     "mushrooms-mod": false,
     "Question": "Why It’s Called New York-Style Cheesecake?",
     "Answer": "New York-style cheesecake is named after New York City, where it became popular in the 1920s, largely due to Arnold Reuben, a German immigrant and restaurateur. Reuben, who owned Reuben's Restaurant and Delicatessen, is often credited with creating the classic New York cheesecake. The defining feature of this cheesecake is its dense, smooth texture and rich flavor, achieved by using a significant amount of cream cheese. This key ingredient, cream cheese, was invented in the 1870s by American dairymen, becoming essential to the iconic dessert’s unique texture and taste.",
-    "set": [
-      "Table: Appetizer Fork"
-    ],
+    "set": ["Table: Appetizer Fork"],
     "breakdown": [
       "Crust/Vanilla Crumb – Sugar, Butter, Flour, Sugar, melted butter",
       "Cheesecake Filling - Cream Cheese, Sour Cream, Lemon Juice, Sugar, Vanilla Extract, Eggs",
@@ -4419,7 +4422,11 @@
     "id": 61,
     "name": "Carrot Cake",
     "allergies-mod": ["Nuts (No Walnuts)"],
-    "allergies-not": ["Dairy (Cream Cheese, Butter, Milk, Cream, Milk powder)", "Eggs", "Gluten"],
+    "allergies-not": [
+      "Dairy (Cream Cheese, Butter, Milk, Cream, Milk powder)",
+      "Eggs",
+      "Gluten"
+    ],
     "soy": false,
     "soy-mod": false,
     "fennel": false,
@@ -4478,9 +4485,7 @@
     "mushrooms-mod": false,
     "Question": "Roots of Carrot Cake",
     "Answer": "Carrot cake traces its origins back to the Middle Ages when European cooks used carrots as a natural sweetener in cakes and desserts due to the scarcity and expense of sugar. This practice resurfaced during World War II in the United States when sugar rationing led to a renewed interest in carrot-based recipes. The modern version of carrot cake, featuring grated carrots and often topped with cream cheese frosting, became particularly popular in the 1970s, aligning with the health food movement.",
-    "set": [
-      "Table: Appetizer Fork"
-    ],
+    "set": ["Table: Appetizer Fork"],
     "breakdown": [
       "Carrot Cake - Eggs, Grapeseed Oil, Brown Sugar, Vanilla Extract, Baking soda, Baking Powder, Flour, Cinnamon Powder, Carrots, Raisins",
       "Cream Cheese Frosting - Cream Cheese, Butter, Powder Sugar, Ginger Powder, Vanilla Extract",
@@ -4556,9 +4561,7 @@
     "mushrooms-mod": false,
     "Question": "What is a Chocolate Hazelnut Praline Terrine?",
     "Answer": "A Chocolate Hazelnut Praline Terrine is a rich and sophisticated dessert featuring layers of smooth chocolate and crunchy hazelnut praline. The praline is made by caramelizing hazelnuts in sugar and then grinding them into a paste or leaving them as crunchy pieces. This mixture is combined with melted chocolate and cream, then set in a mold and chilled until firm. The terrine is served in thin slices, often garnished with additional praline or chocolate shavings, making it a perfect indulgence for special occasions.",
-    "set": [
-      "Table: Appetizer Fork"
-    ],
+    "set": ["Table: Appetizer Fork"],
     "breakdown": [
       "Chocolate Buttermilk Cake - Flour, Cocoa Powder, Sugar, Grapeseed Oil, Buttermilk, Baking Soda, Baking Powder, Vanilla Extract",
       "Hazelnut Truffle - Candy Hazelnut (water, sugar, hazelnut, Jivara 40% Chocolate, Felluttine, cocoa butter)",
@@ -4577,7 +4580,13 @@
   {
     "id": 63,
     "name": "Coconut Lime Chiffon",
-    "allergies-not": ["Gluten (Flour)", "Dairy (Cream, Butter)", "Eggs", "Citrus (Orange Zest, Lemon Juice, Lime Zest", "Alcohol (Diplomatico Rum)"],
+    "allergies-not": [
+      "Gluten (Flour)",
+      "Dairy (Cream, Butter)",
+      "Eggs",
+      "Citrus (Orange Zest, Lemon Juice, Lime Zest",
+      "Alcohol (Diplomatico Rum)"
+    ],
     "soy": false,
     "soy-mod": false,
     "fennel": false,
@@ -4636,26 +4645,33 @@
     "mushrooms-mod": false,
     "Question": "What is a Chiffon Cake?",
     "Answer": "A Chiffon cake is a light, airy cake made with vegetable oil, eggs, sugar, flour, baking powder, and flavorings. Unlike traditional cakes that use butter, chiffon cakes achieve their unique texture through the use of whipped egg whites, which are folded into the batter to create a fluffy, moist cake. This method results in a cake that is both tender like an oil cake and airy like a sponge cake. Chiffon cakes are often baked in a tube pan, similar to angel food cakes, and can be flavored in various ways, including citrus, chocolate, and vanilla",
-     "set": [
-      "Table: Appetizer Fork"
-    ],
+    "set": ["Table: Appetizer Fork"],
     "breakdown": [
       "Orange Chiffon Cake -  Flour, Orange Juice, Lemon Juice, Orange Zest, Sugar, Grapeseed oil, Eggs, Baking Powder",
       "Rum Syrup - Rum Diplomatico , Simple Syrup",
       "Lime Curd -Lime Juice, Eggs, Sugar, Butter, Lime Zest, Gelatin",
       "Coconut Whip - Coconut Puree, Cream, White Chocolate 35%, Coconut Extract, Salt, Gelatin",
-      "Garnish - Toasted Coconut Flakes, Lime Zest"  
+      "Garnish - Toasted Coconut Flakes, Lime Zest"
     ],
     "spiel": "Citrus sponge cake, key lime meringue, coconut cream with shaved coconut.",
     "ingred-search": [],
     "pics": ["/src/assets/food/coconut.jpg"],
-    "pairing": ["Matthiasson Chardonnay ‘Linda Vista’ Napa Valley, California 2021"],
+    "pairing": [
+      "Matthiasson Chardonnay ‘Linda Vista’ Napa Valley, California 2021"
+    ],
     "pics3": true
   },
   {
     "id": 64,
     "name": "Colomba Cake",
-    "allergies-not": ["Gluten (Flour)", "Dairy (Cream, Whole Milk, Butter", "Eggs", "Citrus (Candied Orange Peels, Lemon Juice)", "Nuts (Tuono Almonds, Almond Icing)", "Seeds (Sunflower Oil)"],
+    "allergies-not": [
+      "Gluten (Flour)",
+      "Dairy (Cream, Whole Milk, Butter",
+      "Eggs",
+      "Citrus (Candied Orange Peels, Lemon Juice)",
+      "Nuts (Tuono Almonds, Almond Icing)",
+      "Seeds (Sunflower Oil)"
+    ],
     "soy": false,
     "soy-mod": false,
     "fennel": false,
@@ -4714,9 +4730,7 @@
     "mushrooms-mod": false,
     "Question": "What is a Colomba Cake?",
     "Answer": "The Colomba cake is the quintessential Italian Easter dessert. This fragrant, fruit-studded, dove-shaped cake (`colomba` means `dove` in Italian) is a traditional symbol of spring in Italy. The dove shape represents peace and renewal. No traditional Italian Easter meal is complete without one.",
-     "set": [
-      "Table: Appetizer Fork"
-    ],
+    "set": ["Table: Appetizer Fork"],
     "breakdown": [
       "Loison Colomba Mandorlata Cake - Butter, Sicilian Candied Orange Peels, Almond Icing, Tuono Almonds, Sugar, Sourdough Wheat, Eggs, Lemon Juice, Sunflower Oil, Rice and Wheat Flour, and toasted with clarified butter.",
       "Powdered Sugar",
@@ -4731,8 +4745,13 @@
   {
     "id": 65,
     "name": "Grapefruit Brulee",
-    "allergies-mod": ["Fennel (Oral Allergy Syndrome which is a Pollen allergy) - No Fennel"],
-    "allergies-not": ["Citrus (Grapefruit Sorbet)", "Cucumber Sorbet Contain Honey - Not VEGAN"],
+    "allergies-mod": [
+      "Fennel (Oral Allergy Syndrome which is a Pollen allergy) - No Fennel"
+    ],
+    "allergies-not": [
+      "Citrus (Grapefruit Sorbet)",
+      "Cucumber Sorbet Contain Honey - Not VEGAN"
+    ],
     "soy": false,
     "soy-mod": false,
     "fennel": true,
@@ -4791,10 +4810,7 @@
     "mushrooms-mod": false,
     "Question": "What is Sorbet?",
     "Answer": "Sorbet is a frozen dessert made primarily from sweetened water and fruit (juice or puree). It typically does not contain dairy or fat, making it a lighter and often more refreshing alternative to ice cream. Sorbets are known for their smooth texture and intense fruit flavor. They are often enjoyed as a palate cleanser between courses or as a refreshing dessert on their own. Unlike sherbet, which may contain a small amount of dairy, sorbet is dairy-free, making it a popular choice for those who are lactose intolerant or vegan.",
-    "set": [
-      "Kitchen: Hamachi, Calabrese Ice Bowl",
-      "Table: Dessert Spoon"
-    ],
+    "set": ["Kitchen: Hamachi, Calabrese Ice Bowl", "Table: Dessert Spoon"],
     "breakdown": [
       "Mint Cucumber Sorbet - Water, Sugar, Honey, Lemon Juice, Cucumber Puree, Glucose Powder",
       "Grapefruit Segments - Raw Sugar Brulee",
@@ -4809,8 +4825,15 @@
   {
     "id": 67,
     "name": "Bananas Alla Rum",
-    "allergies-mod": ["Nuts (No Almond ice cream, No Toasted Sliced Almonds)", "Alcohol (No Banana Syrup - contain Banana Liquor `Banana Du Bresil`, No Smith & Cross Rum to Flambe)"],
-    "allergies-not": ["Dairy (Butter in Banana Bread, Almond ice cream)", "Eggs (in Banana Bread)", "Gluten (Flour in Banana Bread)"],
+    "allergies-mod": [
+      "Nuts (No Almond ice cream, No Toasted Sliced Almonds)",
+      "Alcohol (No Banana Syrup - contain Banana Liquor `Banana Du Bresil`, No Smith & Cross Rum to Flambe)"
+    ],
+    "allergies-not": [
+      "Dairy (Butter in Banana Bread, Almond ice cream)",
+      "Eggs (in Banana Bread)",
+      "Gluten (Flour in Banana Bread)"
+    ],
     "soy": false,
     "soy-mod": false,
     "fennel": false,
@@ -4872,7 +4895,8 @@
     "Question2": "What is Smith & Cross Rum?",
     "Answer2": "Smith & Cross Rum is a renowned Jamaican rum brand known for its bold, rich flavors. It is a traditional Navy Strength rum, which means it is bottled at a higher proof (57% ABV or 114 proof). The rum is made from a blend of two distinct Jamaican rum styles: Wedderburn (a heavier, pot-stilled rum) and Plummer (a lighter, more delicate rum). Smith & Cross is appreciated for its complex profile, which includes strong notes of tropical fruit, molasses, spice, and earthy undertones.",
     "set": [
-      "Kitchen: Serving Spoon & 3 Mini Goosenecks for move", "Table: Dessert Spoon, Sharing Plates & Banana’s Bowl for guest"
+      "Kitchen: Serving Spoon & 3 Mini Goosenecks for move",
+      "Table: Dessert Spoon, Sharing Plates & Banana’s Bowl for guest"
     ],
     "breakdown": [
       "Banana Bread - Butter, Sugar, Eggs, Banana Puree, Flour, Baking Soda",
@@ -4889,7 +4913,16 @@
   {
     "id": 68,
     "name": "Maraschino Cherries Flamble",
-    "allergies-mod": ["Dairy (No Almond ice cream)", "Cinnamon (No Cinnamon)", "Eggs (No Amaretti Cookies)", "Citrus (No Orange Peel)", "Nuts (No Almond ice cream, No Amaretti Cookie)", "Alcohol (No Smith & Cross Rum to Flambe)", "Stone Fruit (No Amaretti Cookie - contain Almonds - Almonds are considered a type of stone fruit.)", "Gluten (No Amaretti Cookie)"],
+    "allergies-mod": [
+      "Dairy (No Almond ice cream)",
+      "Cinnamon (No Cinnamon)",
+      "Eggs (No Amaretti Cookies)",
+      "Citrus (No Orange Peel)",
+      "Nuts (No Almond ice cream, No Amaretti Cookie)",
+      "Alcohol (No Smith & Cross Rum to Flambe)",
+      "Stone Fruit (No Amaretti Cookie - contain Almonds - Almonds are considered a type of stone fruit.)",
+      "Gluten (No Amaretti Cookie)"
+    ],
     "soy": false,
     "soy-mod": false,
     "fennel": false,
@@ -4948,9 +4981,7 @@
     "mushrooms-mod": false,
     "Question": "Escoffier’s Flaming Cherry Tribute",
     "Answer": "Based on her love of cherries, it is said that Chef Auguste Escoffier (a French chef, restaurateur, and culinary writer who popularized and updated traditional French cooking methods, known as the “King of Chefs” or “The Chef of Kings”) created this sweet and sour treat as a tribute to Queen Victoria for her Diamond Jubilee celebration in 1897. However, it has evolved over time, as its original preparation included poaching the cherries in simple syrup and pouring warm rum over them. The famed flame, however, has always been a staple!",
-    "set": [
-      "Table: Sharing Plate, Dessert Spoon"
-    ],
+    "set": ["Table: Sharing Plate, Dessert Spoon"],
     "breakdown": [
       "Half Maraschino Cherries",
       "Roasted Morello Cherries (Cinnamon, Vanilla Bean Sugar)",
@@ -4965,6 +4996,92 @@
     "pics2": true
   },
   {
+    "id": 69,
+    "name": "Squash Agrodolce",
+    "allergies-mod": ["Seeds (pumpkin seeds `pepitas` - contain cumin and corriander)", "Vinegar (Agrodolce)"],
+    "allergies-not": [
+      "Dairy (squash is roasted with butter)",
+      "Allium (squash is roasted with garlic)"
+    ],
+    "soy": false,
+    "soy-mod": false,
+    "fennel": false,
+    "fennel-mod": false,
+    "nutmeg": false,
+    "nutmeg-mod": false,
+    "egg": false,
+    "egg-mod": false,
+    "gluten": false,
+    "gluten-mod": false,
+    "seeds": true,
+    "seeds-mod": true,
+    "seedoil": false,
+    "seedoil-mod": false,
+    "sesame": false,
+    "sesame-mod": false,
+    "chili": false,
+    "chili-mod": false,
+    "bellpeppers": false,
+    "bellpeppers-mod": false,
+    "dairy": true,
+    "dairy-mod": false,
+    "vegan": false,
+    "vegan-mod": false,
+    "vegetarian": true,
+    "vegetarian-mod": false,
+    "nuts": false,
+    "nuts-mod": false,
+    "cheese": true,
+    "cheese-mod": true,
+    "allium": true,
+    "allium-mod": false,
+    "truffle": false,
+    "truffle-mod": false,
+    "pork": false,
+    "pork-mod": false,
+    "black-pepper": false,
+    "black-pepper-mod": false,
+    "shellfish": false,
+    "shellfish-mod": false,
+    "vinegar": true,
+    "vinegar-mod": true,
+    "citrus": false,
+    "citrus-mod": false,
+    "nightshades": false,
+    "nightshades-mod": false,
+    "seafood": false,
+    "seafood-mod": false,
+    "fish": false,
+    "fish-mod": false,
+    "alcohol": false,
+    "alcohol-mod": false,
+    "legume": false,
+    "legume-mod": false,
+    "mushrooms": false,
+    "mushrooms-mod": false,
+    "Question": "What is the Mascarpone?",
+    "Answer": "Mascarpone is a rich, creamy Italian cheese made from cream and a small amount of acid, giving it a soft, spreadable texture and mild, slightly sweet flavor. With a high fat content (60-75%), it’s prized for its smooth, luxurious mouthfeel. Mascarpone is most famously used in desserts like tiramisu but also enhances savory dishes, adding creaminess to pasta, risottos, and soups. It’s versatile as a spread or dip, often combined with honey or herbs. If unavailable, it can be substituted with a mix of cream cheese and heavy cream for a similar, though slightly tangier, texture.",
+    "Question2": "What is the Agrodolce?",
+    "Answer2": "Agrodolce is a traditional Italian sauce known for its unique balance of sweet and sour flavors. The name comes from the Italian words `agro` (sour) and `dolce` (sweet). This sauce is made by reducing vinegar (typically red or white wine vinegar) with a sweetener like honey or sugar, sometimes with the addition of other ingredients like onions, garlic, and herbs for added depth.",
+    "set": ["Kitchen: 1) Served in le creuset boat, 2) 3 mini goosenecks with sauces on top of gravy boat tray with carbone coaster, 3) Steak Knife, Serving Fork, Serving Knife (Presentation) and Serving Spoon", "Table: Mark with B&B, Entree Fork & Entree Knife for our guest"],
+    "breakdown": [
+      "Whole roasted Acorn Squash (Roasted with butter, garlic, thyme)",
+      "Agrodolce",
+      "Brown butter",
+      "Sage",
+      "Whipped mascarpone",
+      "Mascarpone, creme fraiche",
+      "Spiced pepitas",
+      "Pumpkin seeds toasted with coriander and cumin",
+      "Scallions"
+    ],
+    "spiel": "Roasted acorn squash, whipped mascarpone, sage and brown butter agrodolce, with spiced pumpkin seeds.” Captain tableside",
+    "ingred-search": [],
+    "pics": ["/src/assets/food/squash.jpg"],
+    "pairing": ["De Forville Barbaresco Piedmont, Italy"],
+    "pics3": true
+  },
+  {
     "id": 2000,
     "name": "J. de Villebois Sancerre",
     "beverage": true
@@ -4973,9 +5090,4 @@
     "id": 3000,
     "name": "DOWNLOAD MATRIX"
   }
-
-
 ]
-
-
-

@@ -76,7 +76,12 @@ export default function RenderItem({ status, zoom, enlarge, zoomIngredients, che
       </h3>
     )) || '';
   
-  const spielText = FULL[currentItem].spiel.replace(/<br>/g, "<br />")
+  let spielText;
+  
+  if (FULL[currentItem].spiel) {
+    spielText = FULL[currentItem].spiel.replace(/<br>/g, "<br />");
+  }
+
  
   return (
     <>
