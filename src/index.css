@@ -12,6 +12,10 @@
   display: grid;
 }
 
+.header {
+  height: 40px;
+}
+
 .enter input {
   margin: 0 auto;
   padding: 4px;
@@ -252,11 +256,6 @@ input:focus::placeholder {
 input:focus {
   background-color: white;
 }
-
-.allergies {
-  padding-left: 2rem;
-}
-
 
 .title-non {
   display: none;
@@ -804,15 +803,17 @@ ul {
   font-size: 2rem;
   font-weight: 500;
   color: black;
+    padding-left: 1rem;
 }
 
 .allergies {
-  text-align: left;
+/*   text-align: center; */
   margin: 0 auto;
   color: #af4a3a;
   background-color: white;
   border: 1px solid #af4a3a;
   width: 50%;
+  padding-left: 2rem;
 }
 
 .change {
@@ -916,16 +917,21 @@ ul {
   }
 }
 @media (max-width: 1200px) {
-  .modifications2 {
-    display: grid;
-    width: 80%;
-  }
   .answer3 {
     height: fit-content;
   }
   .header-div {
     padding: 0.5rem 0;
     margin: 0;
+  }
+
+  .modifications2 {
+    margin: 2rem auto;
+    padding: 0;
+    width: 90%;
+  }
+  .answer3 {
+    text-align: left;
   }
 }
 
@@ -962,6 +968,10 @@ ul {
 }
 
 @media (max-width: 850px) {
+  .modifications2 {
+    display: grid;
+    width: 80%;
+  }
   .title {
     width: 100%;
   }
@@ -969,8 +979,9 @@ ul {
     width: 16rem;
   }
   .food-item h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 80%;
+    font-weight: 600;
   }
   .food-item h4 {
     font-size: 2.5rem;
@@ -993,7 +1004,7 @@ ul {
   }
   .answer {
     width: 80%;
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
   }
   .preparation {
     padding-top: 2rem;
@@ -1018,22 +1029,18 @@ ul {
 @media (max-width: 700px) {
   .header {
     text-align: center;
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
   .search-active {
     width: 70%;
   }
   .search {
-    width: 400px;
-  }
-  .header-div {
-    display: grid;
-    align-items: center;
-    justify-content: center;
+    width: 180px;
   }
 
   .food-item h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 80%;
   }
 
@@ -1062,9 +1069,6 @@ ul {
     width: 80%;
     margin: 1rem auto 2rem auto;
   }
-  .food-item p1 {
-    font-size: 2rem;
-  }
 
   .title {
     width: 100%;
@@ -1077,7 +1081,7 @@ ul {
   }
   .button {
     font-weight: 600;
-    font-size: 5rem;
+    font-size: 2.5rem;
   }
   .select {
     border: 2px solid #041c2c;
@@ -1145,7 +1149,7 @@ ul {
     background-color: #041c2c;
   }
   .answer {
-    padding: 4rem;
+    padding: 1rem 2rem;
   }
   
   .grape-pic {
@@ -1190,10 +1194,13 @@ ul {
 }
 
   @media (max-width: 600px) {
+
+    .carbone {
+      width: 70%;
+    }
     .header-div {
       display: block; 
      text-align: center;
-      padding: 0.5rem 0.3rem;
     }
     .search {
       width: 250px;
@@ -1210,8 +1217,8 @@ ul {
       }
 
       .food-item h3 {
-        font-size: 2.5rem;
-        font-weight: 600;
+        font-size: 2rem;
+        font-weight: 500;
         width: 80%;
       }
       .food-item h4 {
@@ -1227,26 +1234,26 @@ ul {
       }
       
       .food-item p1 {
-        font-size: 2.3rem;
+        font-size: 2rem;
       }
   }
 
   @media (max-width: 530px) {
-    header {
-      padding: 8px 0;
-      width: 80%;
-    }
-
     .button {
       font-size: 2rem;
     }
-    .back button {
-      padding: 8px 0;
+    .carbone {
+      width: 80%;
     }
     .title {
       width: 100%;
       border-right: none;
       border-left: none;
+    }
+    .food-item h3 {
+      font-size: 1.8rem;
+      font-weight: 500;
+      width: 80%;
     }
     .done-search {
       margin: 0 auto;
@@ -1279,7 +1286,7 @@ ul {
         width: 220px;
         margin: 6rem auto 6rem auto;
       }
-      
+
       .enter input {
         margin: 0 auto;
         padding: 0.7rem;
@@ -1328,7 +1335,7 @@ ul {
         font-size: 1.8rem;
       }
       .food-item h3 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding-left: 1.5rem;
         width: 95%;
       }
@@ -1367,6 +1374,14 @@ ul {
     margin: 1rem auto 0 auto;
   }
 
+  .search {
+    margin-bottom: 1rem;
+  }
+
+  .back {
+    margin-bottom: 1rem;
+  }
+
   button .search {
     width: 500px;
   }
@@ -1382,7 +1397,7 @@ ul {
     font-size: 1.8rem;
   }
   .food-item h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 95%;
   }
   .food-item h4 {
@@ -1401,7 +1416,7 @@ ul {
   }
   .answer {
     width: 80%;
-    padding: 6px 8px;
+    padding: 1rem;
   }
   .dish {
     width: 85%;
@@ -1412,7 +1427,6 @@ ul {
 }
 
   @media (max-width: 400px) {
-
     .search2 {
       width: 70%;
     }
