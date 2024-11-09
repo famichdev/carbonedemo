@@ -1349,6 +1349,9 @@ ul {
   .header-div {
     width: 100%;
   }
+  header {
+    margin: 1rem auto 0 auto;
+  }
 
   button .search {
     width: 500px;
