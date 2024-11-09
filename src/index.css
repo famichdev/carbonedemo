@@ -1261,6 +1261,7 @@ ul {
         margin-bottom: 1rem;
         width: 100%;
       }
+
       .done-search {
         margin: 0 auto;
         width: 90%;
@@ -1367,11 +1368,6 @@ ul {
 
   button .search {
     width: 500px;
-  }
-
-  .carbone {
-    width: 90%;
-    height: 60px;
   }
 
   .search-active {
