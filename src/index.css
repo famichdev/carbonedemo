@@ -1261,7 +1261,9 @@ ul {
         margin-bottom: 1rem;
         width: 100%;
       }
-
+      .carbone {
+        width: 90%;
+      }
       .done-search {
         margin: 0 auto;
         width: 90%;
@@ -1278,7 +1280,6 @@ ul {
         margin: 6rem auto 6rem auto;
       }
       
-
       .enter input {
         margin: 0 auto;
         padding: 0.7rem;
