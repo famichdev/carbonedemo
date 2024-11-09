@@ -96,7 +96,7 @@ body {
 }
 
 .carbone {
-  max-width: 210px;
+  max-width: 350px;
   height: 40px;
   cursor: pointer;
 }
@@ -1016,12 +1016,20 @@ ul {
 }
 
 @media (max-width: 700px) {
+  .header {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
   .search-active {
     width: 70%;
   }
+  .search {
+    width: 400px;
+  }
   .header-div {
-    width: 100%;
-    padding: 0 1.5rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
   }
 
   .food-item h3 {
@@ -1187,6 +1195,9 @@ ul {
      text-align: center;
       padding: 0.5rem 0.3rem;
     }
+    .search {
+      width: 250px;
+    }
     .title {
       font-size: 2.5rem;
     }
@@ -1225,6 +1236,7 @@ ul {
       padding: 8px 0;
       width: 80%;
     }
+
     .button {
       font-size: 2rem;
     }
@@ -1355,6 +1367,11 @@ ul {
 
   button .search {
     width: 500px;
+  }
+
+  .carbone {
+    width: 90%;
+    height: 60px;
   }
 
   .search-active {
