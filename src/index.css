@@ -18,8 +18,14 @@
 
 .enter input {
   margin: 0 auto;
+<<<<<<< HEAD
   padding: 4px;
   width: 260px;
+=======
+  padding: 4px 8px;
+  width: 260px;
+  height: 36px;
+>>>>>>> cb22098 (Safe Version)
 }
 
 .welcome h2 {
@@ -28,7 +34,11 @@
 
 .welcome button {
   margin-top: 1rem;
+<<<<<<< HEAD
   padding: 4px 1rem;
+=======
+  padding: 0.5rem 3rem;
+>>>>>>> cb22098 (Safe Version)
   border: 3px solid #041c2c;
   font-size: 1rem;
   color: white;
@@ -47,7 +57,11 @@
 }
 
 .startlogo {
+<<<<<<< HEAD
   width: 220px;
+=======
+  text-align: center;
+>>>>>>> cb22098 (Safe Version)
   margin: 6rem auto 0 auto;
 }
 
@@ -920,10 +934,13 @@ ul {
   .answer3 {
     height: fit-content;
   }
+<<<<<<< HEAD
   .header-div {
     padding: 0.5rem 0;
     margin: 0;
   }
+=======
+>>>>>>> cb22098 (Safe Version)
 
   .modifications2 {
     margin: 2rem auto;
@@ -1013,7 +1030,20 @@ ul {
 }
 
 @media (max-width: 800px) {
+<<<<<<< HEAD
 
+=======
+  .header-div {
+    display: block;
+    text-align: center;
+  }
+  .header {
+    margin-bottom: 1rem;
+  }
+  .carbone {
+    width: 60%;
+  }
+>>>>>>> cb22098 (Safe Version)
   .button {
     font-size: 2.5rem;
   }
@@ -1029,14 +1059,25 @@ ul {
 @media (max-width: 700px) {
   .header {
     text-align: center;
+<<<<<<< HEAD
     margin-top: 1rem;
     margin-bottom: 1rem;
+=======
+    margin-top: 1.5rem;
+>>>>>>> cb22098 (Safe Version)
   }
   .search-active {
     width: 70%;
   }
   .search {
+<<<<<<< HEAD
     width: 180px;
+=======
+    width: 70%;
+  }
+  .carbone {
+    width: 70%;
+>>>>>>> cb22098 (Safe Version)
   }
 
   .food-item h3 {
@@ -1196,14 +1237,22 @@ ul {
   @media (max-width: 600px) {
 
     .carbone {
+<<<<<<< HEAD
       width: 70%;
+=======
+      width: 80%;
+>>>>>>> cb22098 (Safe Version)
     }
     .header-div {
       display: block; 
      text-align: center;
     }
     .search {
+<<<<<<< HEAD
       width: 250px;
+=======
+      width: 75%;
+>>>>>>> cb22098 (Safe Version)
     }
     .title {
       font-size: 2.5rem;
@@ -1243,7 +1292,14 @@ ul {
       font-size: 2rem;
     }
     .carbone {
+<<<<<<< HEAD
       width: 80%;
+=======
+      width: 90%;
+    }
+    .search {
+      width: 90%;
+>>>>>>> cb22098 (Safe Version)
     }
     .title {
       width: 100%;
@@ -1265,11 +1321,18 @@ ul {
 
   @media (max-width: 460px) {
        .header {
+<<<<<<< HEAD
         margin-bottom: 1rem;
         width: 100%;
       }
       .carbone {
         width: 90%;
+=======
+        width: 100%;
+      }
+      .carbone {
+        width: 100%;
+>>>>>>> cb22098 (Safe Version)
       }
       .done-search {
         margin: 0 auto;
@@ -1283,7 +1346,10 @@ ul {
       }
 
       .startlogo {
+<<<<<<< HEAD
         width: 220px;
+=======
+>>>>>>> cb22098 (Safe Version)
         margin: 6rem auto 6rem auto;
       }
 
@@ -1298,6 +1364,7 @@ ul {
       }
       
       .welcome button {
+<<<<<<< HEAD
         margin-top: 1rem;
         padding: 4px 2rem;
         border: 3px solid #041c2c;
@@ -1310,6 +1377,21 @@ ul {
         box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.451);
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.37);
         font-weight: 900;
+=======
+        margin-top: 1.5rem;
+        padding: 4px 3rem;
+        border: 3px solid #041c2c;
+        font-size: 1.5rem;
+        color: white;
+        background-color: #041c2c;
+        border-radius: 3px;
+        cursor: pointer;
+        border: 2px solid white;
+        box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.451);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.779);
+        font-weight: 900;
+        background-color: rgba(255, 255, 255, 0.14);
+>>>>>>> cb22098 (Safe Version)
       }
 
       .entire {
@@ -1329,7 +1411,11 @@ ul {
       }
 
       .search {
+<<<<<<< HEAD
           width: 90%;
+=======
+          width: 100%;
+>>>>>>> cb22098 (Safe Version)
       }
       .button {
         font-size: 1.8rem;
@@ -1367,13 +1453,23 @@ ul {
 }
 
 @media (max-width: 431px) {
+<<<<<<< HEAD
   .header-div {
     width: 100%;
   }
+=======
+>>>>>>> cb22098 (Safe Version)
   header {
     margin: 1rem auto 0 auto;
   }
 
+<<<<<<< HEAD
+=======
+  .header {
+    width: 100%;
+  }
+
+>>>>>>> cb22098 (Safe Version)
   .search {
     margin-bottom: 1rem;
   }
