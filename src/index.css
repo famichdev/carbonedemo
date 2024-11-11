@@ -1209,6 +1209,7 @@ ul {
     .header-div {
       display: block; 
      text-align: center;
+     margin: 0;
     }
     .search {
       width: 75%;
